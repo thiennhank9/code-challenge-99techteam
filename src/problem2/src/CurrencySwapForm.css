@@ -1,0 +1,96 @@
+.currency-swap-form {
+  max-width: 800px; /* Ensures the form is at least 800px wide */
+  width: 100%;
+  padding: 40px; /* Increased padding for better spacing */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  margin: 0 auto; /* Centers the form horizontally */
+}
+
+.currency-swap-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 32px !important; /* Adds spacing below the title */
+}
+
+.currency-input-group {
+  display: flex;
+  gap: 10px; /* Adds spacing between Select and Input */
+}
+
+.currency-select {
+  width: 200px !important;
+}
+
+.currency-input {
+  flex: 1; /* Ensures the Input takes up equal space */
+}
+
+.submit-button-container {
+  text-align: center; /* Centers the button horizontally */
+  margin-top: 32px; /* Adjusted spacing above the submit button */
+}
+
+.submit-button {
+  font-size: 14px; /* Smaller font size */
+  height: 40px; /* Smaller height */
+  width: 120px; /* Fixed width for a smaller button */
+}
+
+.currency-option {
+  display: flex;
+  align-items: center; /* Centers the icon and text vertically */
+  gap: 8px; /* Adds a small gap between the icon and the text */
+}
+
+.currency-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain; /* Ensures the icon fits within its container */
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.currency-card {
+  margin-bottom: 32px; /* Adjusted spacing between the cards */
+  border-radius: 8px; /* Optional: Rounds the corners of the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.loading-overlay {
+  position: fixed; /* Makes the overlay cover the entire screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures it appears above all other elements */
+}
+
+.error-message {
+  color: red;
+  margin-top: 32px; /* Increased margin above the error message */
+  font-size: 14px;
+}

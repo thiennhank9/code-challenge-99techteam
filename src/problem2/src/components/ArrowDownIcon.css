@@ -1,0 +1,11 @@
+.arrow-down-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0; /* Adds spacing above and below the arrow */
+}
+
+.arrow-down-icon {
+  font-size: 40px; /* Increased size for the arrow icon */
+  color: #1890ff; /* Blue color for the arrow */
+}
